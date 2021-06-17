@@ -1,5 +1,9 @@
 def maximum(a,b,c):
-    total = a+b+c
-    return total
+    if a > b and a > c:
+        return a
+    elif b > a and b > c:
+        return b
+    else:
+        return c
 
-print(maximum())
+print(maximum(22,55,3))

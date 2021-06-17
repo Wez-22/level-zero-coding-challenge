@@ -10,4 +10,4 @@ def number_to_time_converter(x):
     else:
         print(str(time_hour) + " hour, " + str(time_minute) + " minutes")
 
-number_to_time_converter()
+number_to_time_converter(133)

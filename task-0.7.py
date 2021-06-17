@@ -6,5 +6,5 @@ def fahrenheit_to_celsius_converter(y):
     celsius = (y - 32) * 5/9
     return celsius
 
-print(celsius_to_fahrenheit_converter())
-print(fahrenheit_to_celsius_converter())
+print(celsius_to_fahrenheit_converter(100))
+print(fahrenheit_to_celsius_converter(100))
