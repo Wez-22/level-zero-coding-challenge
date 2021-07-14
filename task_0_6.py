@@ -1,4 +1,4 @@
-def maximum(a,b,c):
+def find_the_largest_number(a, b, c):
     if a > b and a > c:
         return a
     elif b > a and b > c:
@@ -6,4 +6,5 @@ def maximum(a,b,c):
     else:
         return c
 
-print(maximum(22,55,3))
+
+print(find_the_largest_number(22, 55, 3))
